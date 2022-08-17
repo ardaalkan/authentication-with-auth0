@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <p>Authentication with auth0</p>
         {isLoading ? (
           <small>Loading...</small>
         ) : isAuthenticated ? (
